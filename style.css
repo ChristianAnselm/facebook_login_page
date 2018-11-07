@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+  margin: auto;
+  font-family: Helvetica, Arial;
+  background-color: #eceff5;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: #3f5b97;
+  height: 12.2%;
+  width: 100%;
+  font-family: Arial;
+  border: 1px solid darkblue;
+  justify-content: space-around;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm {
+  font-family: Helvetica, Arial;
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+input {
+  height: 23px;
+  width: 150px;
+}
+
+.content {
+  width: 15%;
+  height: 200px;
+  background: #eceff5;
+  flex-direction: column;
+}
+
+.connectwithfriends {
+  padding: 42px 0 24px;
+}
+
+.SignUpForms {
+  margin-left: 15%;
+  height: 200px;
+  background: #eceff5;
+  flex-direction: column;
+}
